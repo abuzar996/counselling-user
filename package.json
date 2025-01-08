@@ -10,14 +10,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@types/http-cache-semantics": "^4.0.4",
+    "@types/retry": "^0.12.5",
     "expo": "~52.0.23",
     "expo-status-bar": "~2.0.0",
+    "express-serve-static-core": "^0.1.1",
+    "http-cache-semantics": "^4.1.1",
     "react": "18.3.1",
-    "react-native": "0.76.5"
+    "react-native": "0.76.5",
+    "responselike": "^3.0.0",
+    "retry": "^0.13.1",
+    "serve-static": "^1.16.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@types/express-serve-static-core": "^5.0.4",
     "@types/react": "~18.3.12",
+    "@types/serve-static": "^1.15.7",
     "typescript": "^5.3.3"
   },
   "private": true
